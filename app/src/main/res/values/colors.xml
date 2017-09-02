@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Necessary-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Alcohol Disclaimer Reds -->
+    <color name="alcohol_disclaimer_darkest_red">#7a221b</color>
+    <color name="alcohol_disclaimer_medium_red">#b23d3c</color>
+    <color name="alcohol_disclaimer_lightest_red">#e74f4e</color>
+
+    <!-- Text Colors -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+</resources>

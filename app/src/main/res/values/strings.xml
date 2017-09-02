@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Restaurant Menu</string>
+
+    <!-- Alcohol Disclaimer -->
+    <string name="alcohol_disclaimer_21">Are you sure you are 21?</string>
+    <string name="alcohol_dislcaimer_dog_years">Sorry, dog years don\'t count.</string>
+    <string name="alcohol_disclaimer_certify_button">Yup, I\'m 21 years of age or older</string>
+</resources>

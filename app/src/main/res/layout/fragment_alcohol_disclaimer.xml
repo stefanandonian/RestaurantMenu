@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.engineering.andonian.restaurantmenu.fragments.AlcoholDisclaimerFragment"
+    android:background="@color/alcohol_disclaimer_lightest_red">
+
+    <ImageView
+        android:src="@drawable/kimskitchen"
+        style="@style/Alcohol_Disclaimer_text"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/alcohol_disclaimer_certify_button"
+        android:layout_above="@+id/alcohol_disclaimer_21" />
+
+    <TextView
+        android:id="@+id/alcohol_disclaimer_21"
+        style="@style/Alcohol_Disclaimer_text"
+        android:layout_above="@+id/alcohol_disclaimer_dog_years"
+        android:textSize="@dimen/alcohol_disclaimer_text_large"
+        android:textColor="@color/black"
+        android:text="@string/alcohol_disclaimer_21" />
+
+    <TextView
+        android:id="@+id/alcohol_disclaimer_dog_years"
+        style="@style/Alcohol_Disclaimer_text"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/alcohol_disclaimer_text_medium"
+        android:text="@string/alcohol_dislcaimer_dog_years" />
+
+    <Button
+        android:id="@+id/alcohol_disclaimer_certify_button"
+        style="@style/Alcohol_Disclaimer_button"
+        android:layout_below="@+id/alcohol_disclaimer_dog_years"
+        android:text="@string/alcohol_disclaimer_certify_button" />
+
+</RelativeLayout>

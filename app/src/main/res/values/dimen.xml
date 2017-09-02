@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Alcohol Disclaimer Text Font Sizes -->
+    <dimen name="text_padding_medium">10dp</dimen>
+    <dimen name="alcohol_disclaimer_text_large">40dp</dimen>
+    <dimen name="alcohol_disclaimer_text_medium">30dp</dimen>
+
+    <!-- Specific Menu List Item Text Font Sizes -->
+    <dimen name="specific_menu_list_item_medium">30dp</dimen>
+    <dimen name="specific_menu_list_item_small">20dp</dimen>
+
+    <!-- Specific Menu Table Dimens -->
+    <dimen name="specific_menu_table_column_width">80</dimen>
+    <dimen name="specific_menu_table_title_row_height">40</dimen>
+    <dimen name="specific_menu_table_count_row_height">80</dimen>
+
+</resources>
