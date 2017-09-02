@@ -1,8 +1,8 @@
 package com.engineering.andonian.restaurantmenu.activities;
 
 import android.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -32,46 +32,72 @@ public class FoodTypeGallery extends AppCompatActivity {
     }
 
     private void setButtons() {
-        setProteinButton();
-        setSaladButton();
-        setPlantsButton();
-        setFusionButton();
-        setCulturalButton();
-        setDrinksButton();
+        setProteinImageButton();
+        setSaladImageButton();
+        setPlantsImageButton();
+        setFusionImageButton();
+        setCulturalImageButton();
+        setDrinksImageButton();
     }
 
-    private void setButton(ImageButton button, int buttonId) {
-        button  = (ImageButton) findViewById(buttonId);
-        button.setOnClickListener(new View.OnClickListener() {
+    private void setProteinImageButton() {
+        proteinButton  = (ImageButton) findViewById(R.id.proteinButton);
+        proteinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                //TODO
             }
         });
     }
 
-    private void setProteinButton() {
-        setButton(proteinButton,R.id.proteinButton);
+    private void setSaladImageButton() {
+        saladButton  = (ImageButton) findViewById(R.id.saladButton);
+        saladButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO
+            }
+        });
     }
 
-    private void setSaladButton() {
-        setButton(saladButton,R.id.saladButton);
+    private void setPlantsImageButton() {
+        plantsButton  = (ImageButton) findViewById(R.id.plantsButton);
+        plantsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO
+            }
+        });
     }
 
-    private void setPlantsButton() {
-        setButton(plantsButton,R.id.plantsButton);
+    private void setFusionImageButton() {
+        fusionButton  = (ImageButton) findViewById(R.id.fusionButton);
+        fusionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO
+            }
+        });
     }
 
-    private void setFusionButton() {
-        setButton(fusionButton,R.id.fusionButton);
+    private void setCulturalImageButton() {
+        culturalButton  = (ImageButton) findViewById(R.id.culturalButton);
+        culturalButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO
+            }
+        });
     }
 
-    private void setCulturalButton() {
-        setButton(culturalButton,R.id.culturalButton);
-    }
-
-    private void setDrinksButton() {
-        setButton(drinksButton,R.id.drinksButton);
+    private void setDrinksImageButton() {
+        drinksButton  = (ImageButton) findViewById(R.id.drinksButton);
+        drinksButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //TODO
+            }
+        });
     }
 
 }

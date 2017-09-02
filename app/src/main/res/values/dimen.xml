@@ -7,12 +7,12 @@
     <dimen name="alcohol_disclaimer_text_medium">30dp</dimen>
 
     <!-- Specific Menu List Item Text Font Sizes -->
-    <dimen name="specific_menu_list_item_medium">30dp</dimen>
-    <dimen name="specific_menu_list_item_small">20dp</dimen>
+    <dimen name="specific_menu_list_item_medium">30sp</dimen>
+    <dimen name="specific_menu_list_item_small">20sp</dimen>
 
     <!-- Specific Menu Table Dimens -->
-    <dimen name="specific_menu_table_column_width">80</dimen>
-    <dimen name="specific_menu_table_title_row_height">40</dimen>
-    <dimen name="specific_menu_table_count_row_height">80</dimen>
+    <dimen name="specific_menu_table_column_width">80dp</dimen>
+    <dimen name="specific_menu_table_title_row_height">40dp</dimen>
+    <dimen name="specific_menu_table_count_row_height">80dp</dimen>
 
 </resources>

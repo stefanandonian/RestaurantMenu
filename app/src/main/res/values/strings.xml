@@ -5,4 +5,7 @@
     <string name="alcohol_disclaimer_21">Are you sure you are 21?</string>
     <string name="alcohol_dislcaimer_dog_years">Sorry, dog years don\'t count.</string>
     <string name="alcohol_disclaimer_certify_button">Yup, I\'m 21 years of age or older</string>
+
+    <!-- Image Content Descriptions -->
+    <string name="specific_menu_food_picture">Shows a flattering image of the cuisine being offered</string>
 </resources>
